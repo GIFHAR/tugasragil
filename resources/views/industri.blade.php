@@ -79,12 +79,16 @@
 
                             <!-- Color System -->
                             <div class="col-lg-6">
-
+                                <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="m-0 font-weight-bold text-primary">Rata-rata Luas Bangunan</h6>
+                                </div>
                                 <div class="card mb-4 py-3 border-bottom-primary">
                                     <div class="card-body">
                                         .border-bottom-primary
                                     </div>
                                 </div>
+                            </div>
 
                             </div>
 
