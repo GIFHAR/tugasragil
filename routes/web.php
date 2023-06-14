@@ -45,6 +45,7 @@ Route::get('/user', [App\Http\Controllers\UserController::class, 'user'])->name(
 
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/dashboard', [App\Http\Controllers\DashboardController::class, 'dashboard'])->name('dashboard');
 
 
 
@@ -55,8 +56,10 @@ Route::post('/login', [LoginController::class, 'login']);
 
 
 
-// Registration Routes
-Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
-Route::post('/register', [RegisterController::class, 'register'])->name('register.post');
+// // Registration Routes
+// Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
+// Route::post('/register', [RegisterController::class, 'register'])->name('register.post');
 
 
+Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@showRegistrationForm')->name('register');
+Route::post('/register', 'App\Http\Controllers\Auth\RegisterController@registerAction')->name('register');
