@@ -44,6 +44,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -83,7 +84,8 @@
                 <div class="row icon-boxes">
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="{{ asset('img/industry.jpg') }}" class="card-img-top" alt="Image 1" style="height: 300px; object-fit: cover;">
+                            <img src="{{ asset('img/industry.jpg') }}" class="card-img-top" alt="Image 1"
+                                style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
                                     <h4 class="title">Industri</h4>
@@ -94,7 +96,8 @@
 
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="{{ asset('img/school.avif') }}" class="card-img-top" alt="Image 2" style="height: 300px; object-fit: cover;">
+                            <img src="{{ asset('img/school.avif') }}" class="card-img-top" alt="Image 2"
+                                style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
                                     <h4 class="title">Pendidikan</h4>
@@ -106,7 +109,8 @@
 
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="400">
-                            <img src="{{ asset('img/masjid.avif') }}" class="card-img-top" alt="Image 3" style="height: 300px; object-fit: cover;">
+                            <img src="{{ asset('img/masjid.avif') }}" class="card-img-top" alt="Image 3"
+                                style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
                                     <h4 class="title">Masjid</h4>
@@ -117,7 +121,8 @@
 
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="500">
-                            <img src="{{ asset('img/store.avif') }}" class="card-img-top" alt="Image 4" style="height: 300px; object-fit: cover;">
+                            <img src="{{ asset('img/store.avif') }}" class="card-img-top" alt="Image 4"
+                                style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
                                     <h4 class="title">Perdagangan & Jasa</h4>
@@ -128,7 +133,8 @@
                     </div>
                     <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="500">
-                            <img src="{{ asset('img/home.jpg') }}" class="card-img-top" alt="Image 4" style="height: 300px; object-fit: cover;">
+                            <img src="{{ asset('img/home.jpg') }}" class="card-img-top" alt="Image 4"
+                                style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
                                     <h4 class="title">Perumahan</h4>
@@ -146,11 +152,10 @@
                             }
                         </style>
                         <div class="text-center mt-4 d-flex justify-content-center">
-                            <a href="{{ route('login') }}" class="btn btn-primary btn-lg btn-get-started scrollto">Get Started</a>
+                            <a href="{{ route('login') }}"
+                                class="btn btn-primary btn-lg btn-get-started scrollto">Get Started</a>
                         </div>
                     </div>
-
-
 
                 </div>
             </div>
