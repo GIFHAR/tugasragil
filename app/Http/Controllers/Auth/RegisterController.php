@@ -41,10 +41,10 @@ public function registerAction(Request $request)
     return redirect('/dashboard');
 }
 
-protected function registered(Request $request, $user)
-{
-    Auth::login($user);
-}
+// protected function registered(Request $request, $user)
+// {
+//     Auth::login($user);
+// }
 
 }
 
