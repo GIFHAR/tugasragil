@@ -56,10 +56,5 @@ Route::post('/login', [LoginController::class, 'login']);
 
 
 
-// // Registration Routes
-// Route::get('/register', [RegisterController::class, 'showRegistrationForm'])->name('register');
-// Route::post('/register', [RegisterController::class, 'register'])->name('register.post');
-
-
 Route::get('/register', 'App\Http\Controllers\Auth\RegisterController@showRegistrationForm')->name('register');
 Route::post('/register', 'App\Http\Controllers\Auth\RegisterController@registerAction')->name('register');
