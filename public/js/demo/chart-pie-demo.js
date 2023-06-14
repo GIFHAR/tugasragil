@@ -49,7 +49,7 @@ Chart.defaults.global.defaultFontColor = '#858796';
 // Pie Chart Example
 var ctx = document.getElementById("myPieChart");
 var labels = ["Industri", "Pendidikan", "Perdagangan & Jasa", "Peribadatan", "Perumahan"];
-var data = [45, 15, 10, 13, 17];
+var data = [5, 7, 21, 18, 49];
 var backgroundColors = ['#4e73df', '#1cc88a', '#36b9cc', '#f6c23e', '#e74a3b'];
 var hoverBackgroundColors = ['#2e59d9', '#17a673', '#2c9faf', '#d4ac0d', '#c0392b'];
 

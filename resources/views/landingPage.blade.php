@@ -73,67 +73,85 @@
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
                 <div class="row justify-content-center">
                     <div class="col-lg-8 text-center">
-                        <h1>feafeafgeagaea</h1>
-                        <h2>wafeafeafea</h2>
+                        {{-- <h1>Tugas Sistem Informasi Pertanahan</h1> --}}
+                        {{-- <h2>Ragil Puji Rahayu</h2> --}}
                     </div>
                 </div>
-                <div class="text-center mt-4">
-                    <a href="#about" class="btn btn-primary btn-get-started scrollto">Get Started</a>
-                </div>
+
                 <h1>    </h1>
                 <h1>    </h1>
                 <div class="row icon-boxes">
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="200">
-                            <img src="image1.jpg" class="card-img-top" alt="Image 1">
+                            <img src="{{ asset('img/industry.jpg') }}" class="card-img-top" alt="Image 1" style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
-                                    <h4 class="title">Lorem Ipsum</h4>
-                                    <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas
-                                        molestias excepturi</p>
+                                    <h4 class="title">Industri</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="300">
-                            <img src="image2.jpg" class="card-img-top" alt="Image 2">
+                            <img src="{{ asset('img/school.avif') }}" class="card-img-top" alt="Image 2" style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
-                                    <h4 class="title">Sed ut perspiciatis</h4>
-                                    <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit
-                                        esse cillum dolore</p>
+                                    <h4 class="title">Pendidikan</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 mb-4">
+
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="400">
-                            <img src="image3.jpg" class="card-img-top" alt="Image 3">
+                            <img src="{{ asset('img/masjid.avif') }}" class="card-img-top" alt="Image 3" style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
-                                    <h4 class="title">Magni Dolores</h4>
-                                    <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in
-                                        culpa qui officia</p>
+                                    <h4 class="title">Masjid</h4>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="col-md-6 col-lg-4 mb-4">
                         <div class="card" data-aos="zoom-in" data-aos-delay="500">
-                            <img src="image4.jpg" class="card-img-top" alt="Image 4">
+                            <img src="{{ asset('img/store.avif') }}" class="card-img-top" alt="Image 4" style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
-                                    <h4 class="title">Nemo Enim</h4>
-                                    <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus
-                                        qui blanditiis</p>
+                                    <h4 class="title">Perdagangan & Jasa</h4>
+
                                 </div>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <div class="card" data-aos="zoom-in" data-aos-delay="500">
+                            <img src="{{ asset('img/home.jpg') }}" class="card-img-top" alt="Image 4" style="height: 300px; object-fit: cover;">
+                            <div class="card-body">
+                                <div class="icon-box">
+                                    <h4 class="title">Perumahan</h4>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 mb-4">
+                        <style>
+                            .btn-get-started {
+                                background: linear-gradient(to right, #ff416c, #ff4b2b);
+                                /* Add any other custom styles as needed */
+                            }
+                        </style>
+                        <div class="text-center mt-4 d-flex justify-content-center">
+                            <a href="{{ route('login') }}" class="btn btn-primary btn-lg btn-get-started scrollto">Get Started</a>
+                        </div>
+                    </div>
+
+
+
                 </div>
             </div>
         </section><!-- End Hero -->

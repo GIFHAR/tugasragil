@@ -12,7 +12,7 @@
 
     <!-- Nav Item - Dashboard -->
     <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="{{ route('dashboard') }}">
             <i class="fas fa-fw fa-tachometer-alt"></i>
             <span>Dashboard</span></a>
     </li>
@@ -29,7 +29,7 @@
     <li class="nav-item">
         {{-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo"> --}}
-            <a class="nav-link" href="tables.html">
+            <a class="nav-link"  href="{{ route('industri') }}">
             <i class="fas fa-fw fa-industry"></i>
             <span>Industri</span>
         </a>
@@ -46,7 +46,7 @@
     <li class="nav-item">
         {{-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
             aria-expanded="true" aria-controls="collapseUtilities"> --}}
-            <a class="nav-link" href="tables.html">
+            <a class="nav-link" href="{{ route('pendidikan') }}">
             <i class="fas fa-fw fa-school"></i>
             <span>Pendidikan </span>
         </a>
@@ -66,7 +66,7 @@
         <li class="nav-item">
             {{-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities"> --}}
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{ route('perdagangan') }}">
                 <i class="fas fa-fw fa-store"></i>
                 <span>Perdagangan & Jasa </span>
             </a>
@@ -77,7 +77,7 @@
         <li class="nav-item">
             {{-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities"> --}}
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{ route('peribadatan') }}">
                 <i class="fas fa-fw fa-mosque"></i>
                 <span>Peribadatan </span>
             </a>
@@ -88,7 +88,7 @@
         <li class="nav-item">
             {{-- <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                 aria-expanded="true" aria-controls="collapseUtilities"> --}}
-                <a class="nav-link" href="tables.html">
+                <a class="nav-link" href="{{ route('perumahan') }}">
                 <i class="fas fa-fw fa-home"></i>
                 <span>Perumahan </span>
             </a>
@@ -126,20 +126,20 @@
 
     <!-- Nav Item - Charts -->
     <li class="nav-item">
-        <a class="nav-link" href="charts.html">
+        <a class="nav-link" href="{{ route('user') }}">
             <i class="fas fa-fw fa-user"></i>
             <span>User Management</span></a>
     </li>
 
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a class="nav-link" href="charts.html">
             <i class="fas fa-fw fa-user"></i>
             <span>Profile</span></a>
-    </li>
+    </li> --}}
 
     <!-- Nav Item - Tables -->
     <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="{{ route('logout')}}">
             <i class="fas fa-fw fa-sign-out-alt"></i>
             <span>Logout</span></a>
     </li>
