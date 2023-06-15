@@ -113,7 +113,7 @@
                                 style="height: 300px; object-fit: cover;">
                             <div class="card-body">
                                 <div class="icon-box">
-                                    <h4 class="title">Masjid</h4>
+                                    <h4 class="title">Peribadatan</h4>
                                 </div>
                             </div>
                         </div>
@@ -152,8 +152,12 @@
                             }
                         </style>
                         <div class="text-center mt-4 d-flex justify-content-center">
+                            <a href="{{ route('register') }}"
+                                class="btn btn-primary btn-lg btn-get-started scrollto">Register</a>
+                        </div>
+                        <div class="text-center mt-4 d-flex justify-content-center">
                             <a href="{{ route('login') }}"
-                                class="btn btn-primary btn-lg btn-get-started scrollto">Get Started</a>
+                                class="btn btn-primary btn-lg btn-get-started scrollto">Login</a>
                         </div>
                     </div>
 
